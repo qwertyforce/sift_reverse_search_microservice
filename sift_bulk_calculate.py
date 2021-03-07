@@ -3,7 +3,6 @@ import numpy as np
 from PIL import Image
 from os import listdir
 import pickle as pk
-from timeit import default_timer as timer
 import math
 sift = cv2.SIFT_create(nfeatures=500)
 
